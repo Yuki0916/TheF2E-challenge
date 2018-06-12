@@ -1,0 +1,14 @@
+.Header{
+    background-color:   #7828B4;
+    width: 100%;
+    height: 8.8%;
+
+}
+
+.HeaderTitle{
+    font-family: Optima-ExtraBlack;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding-left: 78px;
+    padding-top: 24px;
+}
