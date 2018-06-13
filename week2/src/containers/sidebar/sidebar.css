@@ -1,5 +1,99 @@
 .Sidebar{
     background-color: #EBEBEB;
     width: 25%;
-    height: 52.2%;
+    height: 541px;
+    margin-left: 33px;
+}
+
+.SidebarBottomLine{
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.Localtion{
+    height: 127px;
+}
+
+.Localtion select{
+    width: 220px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+.Title{
+    font-family: Roboto-Bold;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    padding: 24px 0 0 34px;
+}
+
+.Localtion select {
+    margin: 12px 0 0 34px;
+}
+
+.Date{
+    height: 187px;
+}
+
+.Datebox{
+    float: right;
+    margin-right: 33px;
+}
+
+.Datepicker{
+    width: 169px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 0 0 8px 12px;
+}
+.Categories{
+    height: 225px;
+}
+
+.Categories ul{
+    list-style: none;
+}
+
+.Categories li{
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    color: #000000;
+    height: 25px;
+}
+
+.Categories input{
+    display: none;
+}
+
+label {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 5px;
+}
+
+label:before {
+    line-height: 20px;
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+
+input[type=checkbox]:checked + label:before,label:hover:before {
+    content: "\2713";
+    color: #666666;
+    text-align: center;
+    line-height: 16px;
 }
