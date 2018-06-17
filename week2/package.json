@@ -2,6 +2,7 @@
   "name": "week2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://yuki0916.github.io/TheF2E-challenge/week2/build",
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
