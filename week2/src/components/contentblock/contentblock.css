@@ -1,0 +1,12 @@
+.Block{
+    height: 220px;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.Img-Block{
+    width: 220px;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+}

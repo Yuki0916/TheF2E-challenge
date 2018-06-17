@@ -1,0 +1,49 @@
+.Pagination{
+    float: right;
+    margin: 0 40px 24px 0;
+}
+
+.Pagination ul{
+    margin: 0;
+    padding: 0;
+}
+
+.Pagination ul li{
+    width: 41px;
+    height: 42px;
+    list-style: none;
+    display: inline-block;
+    background: #FFFFFF;
+    border: 1px solid #ECEEEF;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    color: #9013FE;
+    text-align: left;
+    line-height: 21px;
+    padding: 10px 0 0 16px;
+}
+
+.Pagination ul li:hover{
+    color: #9013FE;
+    background: #F2F2F2;
+    border: 1px solid #ECEEEF;
+}
+
+.Pagination ul .Page-On{
+    color: #FFFFFF;
+    background: #9013FE;
+    border: 1px solid #9013FE;
+}
+
+.Pagination ul li:first-child{
+    color: #777777;
+}
+
+.Pagination ul li:last-child{
+    color: #9013FE;
+}
+
+.Pagination ul li:first-child, .Pagination ul li:last-child{
+    border-radius: 4px;
+    letter-spacing: 0;
+}
