@@ -1,8 +1,9 @@
 .Sidebar{
     background-color: #EBEBEB;
-    width: 25%;
+    width: 300px;
     height: 541px;
-    margin-left: 33px;
+    margin-left: 38px;
+    position: absolute;
 }
 
 .SidebarBottomLine{
@@ -50,6 +51,7 @@
     border-radius: 2px;
     display: inline-block;
     margin: 0 0 8px 12px;
+    padding: 11px 0 0 11px;
 }
 .Categories{
     height: 225px;

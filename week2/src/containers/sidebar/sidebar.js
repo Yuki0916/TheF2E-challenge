@@ -19,11 +19,11 @@ class Sidebar extends Component{
                 <div className="Categories">
                     <div className="Title">Categories</div>
                     <ul>
-                        <li><input type="checkbox" name="" id=""/> <label htmlFor="">All</label></li>
-                        <li><input type="checkbox" name="" id=""/> <label htmlFor="">Enterainment</label></li>
-                        <li><input type="checkbox" name="" id=""/> <label htmlFor="">Food</label></li>
-                        <li><input type="checkbox" name="" id=""/> <label htmlFor="">Learning</label></li>
-                        <li><input type="checkbox" name="" id=""/> <label htmlFor="">Outdoors</label></li>
+                        <li><input type="checkbox" name="" id="1"/> <label htmlFor="1">All</label></li>
+                        <li><input type="checkbox" name="" id="2"/> <label htmlFor="2">Enterainment</label></li>
+                        <li><input type="checkbox" name="" id="3"/> <label htmlFor="3">Food</label></li>
+                        <li><input type="checkbox" name="" id="4"/> <label htmlFor="4">Learning</label></li>
+                        <li><input type="checkbox" name="" id="5"/> <label htmlFor="5">Outdoors</label></li>
                     </ul>
                 </div>
             </div>
